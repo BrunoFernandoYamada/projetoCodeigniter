@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>WarriorPixel | Minecraft server</title>
+<meta name="language" content="en" />
+<meta name="author" content="Listforge">
+<meta name="description" content="WarriorPixel, a minecraft server, located in Brazil" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/font-awesome.min.css?revision=2.5.1.1">
+<link rel="stylesheet" type="text/css" href="http://cdn.minecraft-mp.com/css/craftforge.css?revision=2.5.1.1"/>
+<link rel="apple-touch-icon-precomposed" href="http://cdn.minecraft-mp.com/images/mobile-icon.png"/>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+<link rel="canonical" href="http://minecraft-mp.com/server-s141745" /><script src="http://cdn.minecraft-mp.com/libs/jquery/jquery-2.2.4.min.js"></script>
+<script type="text/javascript" src="http://cdn.minecraft-mp.com/js/functions.js?revision=2.5.1.1"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- Google Analytics Javascript -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-27786588-3', 'minecraft-mp.com');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- End Google Analytics Javascript -->
+
+<script src='https://www.google.com/recaptcha/api.js'></script>
+
+<!-- ShareThis Javascript -->
+<script type="text/javascript">var __st_loadLate=true;</script>
+<script type="text/javascript">var switchTo5x=true;</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "2fc74a7e-f2c8-44b4-a0c4-bac9d96c366a", doNotHash: false, doNotCopy: true, hashAddressBar: false});</script>
+<!-- End ShareThis Javascript -->
+
+
+
+<!-- Admiral Script -->
+<script>(function(a,b,c,d,e){e=a.createElement(b);a=a.getElementsByTagName(b)[0];e.async=1;e.src=c;a.parentNode.insertBefore(e,a)})(document,'script','//copycarpenter.com/aca7ea5ad5edb1752aa8d58d73f371b27c392c936a477c432bb350ed15b04cf8fedb114b3b7ed1159dbe3c56a9d5927a19b6e84d773519915df54604315e');</script>
+<!-- End Admiral Script -->
+
+
+<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+<script type="text/javascript">
+	window.cookieconsent_options = {"message":"This website uses cookies to improve user experience. By using our website you consent to all cookies in accordance with our Cookie Policy.","dismiss":"I agree","learnMore":"Read more","link":"/cookie/","theme":"dark-bottom"};
+</script>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
+<!-- End Cookie Consent plugin -->
+
+<!-- Curse JS -->
+
+<script>
+var script = document.createElement('script');
+var tstamp = new Date();
+script.id = 'factorem';
+script.src = 'http://cdm.cursecdn.com/js/minecraft-mp/cdmfactorem_min.js?misc=' + tstamp.getTime();
+script.async = false;
+script.type='text/javascript';
+document.head.appendChild(script);
+</script>
+
+<!-- End Curse JS -->
+</head>
+<body class="site-minecraft-mp">
+
+<div class="menu">
+	<div class="navbar navbar-inverse navbar-static-top">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="/">Minecraft Multiplayer</a>
+			</div>
+			<div class="">
+				<ul class="nav navbar-nav">
+					<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Server List <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="/servers/latest/">Latest Servers</a></li>
+							<li><a href="/servers/updated/">Recently Updated</a></li>
+							<li><a href="/">Servers by Score</a></li>
+							<li><a href="/servers/random/">Random Servers</a></li>
+							<li><a href="/servers/private/">Private Servers</a></li>
+							<li><a href="/countries/">Servers by Countries</a></li>
+							<li><a href="/versions/">Servers by Versions</a></li>
+							<li><a href="/server-ping/">Servers by Ping</a></li>
+							<li><a href="/plugins/">Servers by Plugins</a></li>
+							<li><a href="/types/">Servers by Types</a></li>
+							<li><a href="/themes/">Servers by Themes</a></li>
+							<li><a href="/groups/">Servers by Groups</a></li>							<li><a href="/youtube-videos/">Servers by Videos</a></li>
+							<li><a href="/servers/players/">Most Played Servers</a></li>
+						</ul>
+					</li>
+					<li><a href="/search/">Search</a></li>
+										<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-user"></i> Login/Register <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="/register/">Register</a></li>
+							<li><a href="/login/">Login</a></li>
+							<li><a href="/password-reset/">Password Reset</a></li>
+							<li><a href="/activation/resend/">Resend Activation Email</a></li>
+						</ul>
+					</li>
+										<li><a href="/blog/">Blog</a></li>
+					<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Help/FAQ <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="/help/">Help/FAQ</a></li>
+							<li><a href="/help/api/">API Documentation</a></li>
+							<li><a href="/servers/premium/faq/">Premium FAQ</a></li>							<li><a href="/help/ping/">Ping FAQ</a></li>							<li><a href="/achievements/">Achievement List</a></li>							<li><a href="/achievements/leaderboard/">Achievement Leaderboard</a></li>							<li><a href="/servers/hosting/">Server Hosting</a></li>
+						</ul>
+					</li>
+					<li><a href="https://minecraftpocket-servers.com/" target="_blank" title="Minecraft Pocket Edition server list"><i class="fa fa-mobile fa-lg"></i> MCPE Servers</a></li>
+					<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">About <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="/about/">About</a></li>
+							<li><a href="/minecraft/">Minecraft</a></li>
+							<li><a href="/stats/">Statistics</a></li>
+							<li><a href="/partners/">Partners</a></li>
+						</ul>
+					</li>
+					<li class="yourserver"><a href="/your-server/">Your Server</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<div style="clear: both;"></div>
+
+<div class="header">
+	<div class="container">
+
+		<div class="row">
+			<div class="col-xs-9">
+
+								<div style="height: 10px;"></div>
+				<div class="row">
+					<img src="http://cdn.minecraft-mp.com/images/title.png" width="550" height="72" border="0" alt="Minecraft server list" title="Minecraft server list" />
+				</div>
+				<div style="height: 10px;"></div>
+				<div class="row">
+					<div style="position: relative; left: 15px;"><a href="http://www.enjin.com/minecraft-websites?ref=1612001&tag=minecraft" target="_blank"><img src="http://cdn.minecraft-mp.com/images/partners/enjin_358.gif" width="358" height="50" border="0" alt="Enjin - Minecraft - Guild Hosting - Clan Website" title="Enjin - Minecraft - Guild Hosting - Clan Website" style="border-width:1px; border-style:solid; border-color:black;" /></a></div>
+				</div>
+				
+			</div>
+			<div class="col-xs-3">
+				
+				<div style="height: 5px;"></div>
+
+				<div class="row">
+					<form class="navbar-form" role="search" action="/search/" method="post">
+						<div class="input-group add-on">
+							<input class="form-control" placeholder="Search" name="keyword" id="keyword" type="text">
+							<div class="input-group-btn">
+								<button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+							</div>
+						</div>
+					</form>
+				</div>
+
+				<div class="row">
+										<div style="margin-right: 15px;">
+						<ul class="social_links" style="padding-left: 0px;">
+																					<li><a href="http://www.facebook.com/minecraftmp" target="_blank"><img src="http://cdn.minecraft-mp.com/images/social_networks/facebook.png" width="32" height="32" title="Facebook" alt="Facebook" border="0" style="vertical-align:middle"/></a></li>
+																												<li><a href="https://plus.google.com/+Minecraft-mp" target="_blank"><img src="http://cdn.minecraft-mp.com/images/social_networks/googleplus.png" width="32" height="32" title="Google+" alt="Google+" border="0" style="vertical-align:middle"/></a></li>
+																												<li><a href="http://twitter.com/MMP_ServersList" target="_blank"><img src="http://cdn.minecraft-mp.com/images/social_networks/twitter.png" width="32" height="32" title="Twitter" alt="Twitter" border="0" style="vertical-align:middle"/></a></li>
+																												<li><a href="http://steamcommunity.com/groups/listforge" target="_blank"><img src="http://cdn.minecraft-mp.com/images/social_networks/steam.png" width="32" height="32" title="Steam" alt="Steam" border="0" style="vertical-align:middle"/></a></li>
+																												<li><a href="http://minecraft-mp.com/rss/blog/" target="_blank"><img src="http://cdn.minecraft-mp.com/images/social_networks/rss.png" width="32" height="32" title="RSS Feed" alt="RSS Feed" border="0" style="vertical-align:middle"/></a></li>
+																				</ul>
+					</div>
+									</div>
+
+			</div>
+		</div>
+
+		
+	</div>
+</div>
+
+
+<div class="content">
+	<div class="container">
+
+		
+		
+		
+		
+		
+		
+		<div style="height: 10px;"></div>
+		<div align="center" id="adbox_leaderboard" style="min-height: 100px;">
+			<div id='cdm-zone-01'></div>
+		</div>
+			
+		<div style="height: 10px;"></div>
+		<ul class="breadcrumb">
+	<li><a href="/">Servers</a></li>
+	<li class="active">WarriorPixel</li>
+</ul>
+
+<h1>WarriorPixel</h1>
+
+<div class="pull-left"><img src="http://cdn.minecraft-mp.com/images/favicon/141745.png?ts=1487122309" height="64" width="64" border="0" alt="WarriorPixel" title="WarriorPixel" /></div><div class="pull-left" style="width: 10px;">&nbsp;</div>
+<div class="pull-left"><img src="http://cdn2.minecraft-mp.com/images/banners/banner-141745-1485794144.png" border="0" alt="WarriorPixel" title="WarriorPixel" /></div><div class="clearfix"></div>
+<div style="height: 10px;"></div>
+<p>
+	<a href="/server/141745/vote/" class="btn btn-success">Vote <i class="fa fa-thumbs-o-up"></i></a>
+
+	<a href="/server/141745/stats/" class="btn btn-mmp">Statistics <i class="fa fa-bar-chart-o"></i></a>
+
+	<a href="/server/141745/banners/" class="btn btn-mmp">Banners <i class="fa fa-picture-o"></i></a>
+
+	<a href="/server/141745/comments/" class="btn btn-mmp">Comments <i class="fa fa-comments"></i></a>
+
+	<a href="/server/141745/favorites/add/" rel="nofollow" class="btn btn-mmp">Add To Favorites <i class="fa fa-heart"></i></a>
+	<a href="/server/141745/ping/" class="btn btn-primary">Ping <i class="fa fa-exchange"></i></a>
+
+	<a class="btn btn-danger" href="/ticket/add/?report=servers&id=141745">Report <i class="fa fa-exclamation-triangle"></i></a>
+
+</p>
+
+<div style="height: 10px;"></div>
+
+
+<div class="row">
+	<div class="col-xs-7">
+
+		<h2><i class="fa fa-info-circle"></i> About</h2>
+
+		<table class="table table-bordered">
+			<tbody>
+				<tr>
+					<td width="30%"><i class="fa fa-play"></i> <strong>Address</strong></td>
+					<td><strong>WarriorPixel.playmine.net:25593</strong></td>
+				</tr>
+								<tr>
+					<td><i class="fa fa-info-circle"></i> <strong>MOTD</strong></td>
+					<td>WarriorPixel » [Full-PvP] [SkyWars] «</td>
+				</tr>
+								<tr>
+					<td valign="top"><i class="fa fa-power-off"></i> <strong>Server status</strong></td>
+					<td><span class="badge badge-success">Online</span>					
+					<strong><small>Checked <1 minute ago</small></strong> 
+										
+					</td>
+				</tr>
+				<tr>
+					<td><i class="fa fa-group"></i> <strong>Players</strong></td>
+					<td><strong>0/60</strong></td>
+				</tr>
+				<tr>
+					<td><i class="fa fa-globe"></i> <strong>Location</strong></td>
+					<td><a href="/country/brazil/"><img src="http://cdn.minecraft-mp.com/images/flags/Brazil.png" alt="Brazil" title="Brazil" border="0"/></a>&nbsp;<a href="/country/brazil/">Brazil</a></td>
+				</tr>
+								<tr>
+					<td><i class="fa fa-cog"></i> <strong>Minecraft Version</strong></td>
+					<td><a href="/version/1_8/" class="label label-primary">1.8</a></td>
+				</tr>
+																<tr>
+					<td><i class="fa fa-user"></i> <strong>Registered by</strong></td>
+					<td><a href="/profile/warriorpixel/">WarriorPixel</a></td>
+				</tr>
+				<tr>
+					<td><i class="fa fa-clock-o"></i> <strong>Registered since</strong></td>
+					<td>December 14th, 2016 07:51 AM EST</td>
+				</tr>
+								<tr>
+					<td><i class="fa fa-clock-o"></i> <strong>Last update</strong></td>
+					<td>February 15th, 2017 10:41 AM EST</td>
+				</tr>
+												<tr>
+					<td><i class="fa fa-picture-o"></i> <strong>Theme</strong></td>
+					<td>
+					<a href="/theme/other/">Other</a></td>
+				</tr>
+												<tr>
+					<td><i class="fa fa-tags"></i> <strong>Tag(s)</strong></td>
+					<td>
+										<a href="/type/economy/" class="badge badge-default">Economy</a>
+										<a href="/type/minigames/" class="badge badge-default">Minigames</a>
+										<a href="/type/parkour/" class="badge badge-default">Parkour</a>
+										<a href="/type/pvp/" class="badge badge-default">PvP</a>
+										<a href="/type/skywars/" class="badge badge-default">Skywars</a>
+										<a href="/type/spigot/" class="badge badge-default">Spigot</a>
+										<a href="/type/survival/" class="badge badge-default">Survival</a>
+										<a href="/type/survival-games/" class="badge badge-default">Survival Games</a>
+										</td>
+				</tr>
+							</tbody>
+		</table>
+
+		<div style="height: 10px;"></div>
+
+				<div><img src="/regular-banner-141745-5.png" alt="WarriorPixel" title="WarriorPixel"></div>
+		
+	</div>
+	<div class="col-xs-5">
+
+		<h2><i class="fa fa-bar-chart-o"></i> Statistics</h2>
+
+		<table class="table table-bordered">
+			<tbody>
+				<tr>
+					<td width="40%"><i class="fa fa-signal"></i> <strong>Uptime</strong></td>
+					<td><span class="badge badge-success">98%</span></td>
+				</tr>
+				<tr>
+					<td><i class="fa fa-thumbs-o-up"></i> <strong>Vote(s)</strong></td>
+					<td>125</td>
+				</tr>
+				<tr>
+					<td><i class="fa fa-list-ol"></i> <strong>Rank</strong></td>
+					<td>898</td>
+				</tr>
+				<tr>
+					<td><i class="fa fa-star"></i> <strong>Score</strong></td>
+					<td>195</td>
+				</tr>
+				<tr>
+					<td><i class="fa fa-heart"></i> <strong>Favorited</strong></td>
+					<td>1</td>
+				</tr>
+				<tr>
+					<td><i class="fa fa-comments"></i> <strong>Comment(s)</strong></td>
+					<td>0</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<div style="height: 10px;"></div>
+		<h2><i class="fa fa-share-alt"></i> Share This Server</h2>
+
+		<div class="text">You can also share this server with the following social links to help you get more players.</div>
+		<div style="height: 20px;"></div>
+				<div>
+			<span class='st_fblike_hcount' st_url="http://minecraft-mp.com/server-s141745" displayText='Facebook Like'></span>
+			<span class='st_plusone_hcount' st_url="http://minecraft-mp.com/server-s141745" displayText='Google +1'></span>
+		</div>
+		<div style="height: 10px;"></div>
+				<div>
+			<span class='st_sharethis_large' st_url="http://minecraft-mp.com/server-s141745" displayText='ShareThis'></span>
+			<span class='st_facebook_large' st_url="http://minecraft-mp.com/server-s141745" displayText='Facebook'></span>
+			<span class='st_googleplus_large' st_url="http://minecraft-mp.com/server-s141745" displayText='Google +'></span>
+			<span class='st_twitter_large' st_url="http://minecraft-mp.com/server-s141745" st_via="MMP_ServersList" displayText='Tweet'></span>
+			<span class='st_tumblr_large' st_url="http://minecraft-mp.com/server-s141745" displayText='Tumblr'></span>
+			<span class='st_pinterest_large' st_url="http://minecraft-mp.com/server-s141745" displayText='Pinterest'></span>
+			<span class='st_email_large' st_url="http://minecraft-mp.com/server-s141745" displayText='Email'></span>
+		</div>
+
+
+		<div style="height: 10px;"></div>
+		<h2><i class="fa fa-picture-o"></i> Embedded Vote Button</h2>
+
+		<script src="http://minecraft-mp.com/embed.js?id=141745&type=votes&size=normal"></script>
+		<div style="height: 5px;"></div>
+		<button type="button" class="btn btn-default btn-sm" data-toggle="collapse" data-target="#button_code2">Show HTML code <i class="fa fa-info-circle"></i></button>
+		<a class="btn btn-default btn-sm" href="/server/141745/banners/">View all embedded options <i class="fa fa-picture-o"></i></a>
+		<div style="height: 5px;"></div>
+		<div id="button_code2" class="collapse">
+		<div class="row"><div class="col-xs-12"><textarea class="form-control" rows="3"><script src="http://minecraft-mp.com/embed.js?id=141745&type=votes&size=normal"></script></textarea></div></div>
+		</div>
+
+	</div>
+</div>
+
+<div style="height: 20px;"></div>
+
+
+
+
+<div class="row"><div class="col-xs-12">
+<h2><i class="fa fa-file-text-o"></i> Description</h2>
+<p>Servidor WarriorPixel, Vindo Com Tudo !! temos Diversos tipos de jogos ! temos a Arena PVP e Colocamos um sistema de Eventos !!! Esses Eventos Acontecem automaticamente, Temos o Evento Parkour caso vc seja bom no Parkour e Temos o Evento Corrida, o Vencedor Ganha um Premio e Lembrando nao tente jogar injustamente, Admins estão sempre Online Obs o Jogo.<br />
+<br />
+● MiniGames : SkyWars ( Fase Beta )<br />
+● Mini Eventos : Parkour e Corrida<br />
+● Servidor Focado em Full PVP Com Sobrevivencia<br />
+● Like : http://adf.ly/1g4K8K<br />
+● IP : WarriorPixel.playmine.net<br />
+● TS : warriorpixel.goldtalk.com.br<br />
+● Servidor Versão 1.8x<br />
+● Dono -Vini02<br />
+● Admin - PlayerExtremeZ</p>
+<div style="height: 20px;"></div>
+</div></div>
+
+
+	
+
+	</div>
+</div>
+
+
+<div class="bottom">
+	<div class="container">
+		<div class="row">
+
+			<div id="bottom-adsense">
+				<div align="center" style="min-height: 100px;">
+					<div id='cdm-zone-04'></div>	
+				</div>
+			</div>
+
+		</div>
+
+		<div style="height: 10px;"></div>
+
+		<div class="row">
+
+			<div class="col-xs-3">
+
+				<h5>FIND SERVERS BY</h5>
+				<ul class="bottom-links">
+					<li><a href="/search/">Search Engine</a></li>
+					<li><a href="/servers/latest/">Latest</a></li>
+					<li><a href="/servers/updated/">Recently Updated</a></li>
+					<li><a href="/servers/players/">Most Played</a></li>
+					<li><a href="/servers/private/">Private</a></li>
+					<li><a href="/servers/random/">Random</a></li>
+					<li><a href="/countries/">Countries</a></li>
+					<li><a href="/versions/">Versions</a></li>
+					<li><a href="/server-ping/">Ping</a></li>
+					<li><a href="/plugins/">Plugins</a></li>
+					<li><a href="/types/">Types</a></li>
+					<li><a href="/themes/">Themes</a></li>
+					<li><a href="/groups/">Groups</a></li>				</ul>
+
+			</div>
+
+			<div class="col-xs-3">
+
+				<h5>MINECRAFT RESOURCES</h5>
+				<ul class="bottom-links">
+					<li><a href="http://www.minecraft-schematics.com/" target="_blank">Minecraft Schematics</a></li>
+					<li><a href="http://www.minecraft.net/" target="_blank">Minecraft Official Website</a></li>
+					<li><a href="http://www.minecraftwiki.net/" target="_blank">Minecraft Wiki</a></li>
+					<li><a href="http://minecraftskins.fr/" target="_blank">Minecraft Skins.fr</a></li>
+					<li><a href="http://www.enjin.com/minecraft-websites?ref=1612001&tag=minecraft-footer" target="_blank">Enjin</a></li>
+					<li><a href="/servers/hosting/">Minecraft Server Hosting</a></li>
+					<li><a href="https://minecraftpocket-servers.com/" title="Minecraft Pocket Edition server list" target="_blank">Minecraft Pocket Edition</a></li>
+					<li><a href="https://minecraft-tracker.com/" title="Minecraft server list and tracker" target="_blank">Minecraft Tracker</a></li>
+					<li><a href="/1.9/" title="Minecraft 1.9">Minecraft 1.9</a></li>
+					<li><a href="/1.10/" title="Minecraft 1.10">Minecraft 1.10</a></li>
+					<li><a href="/1.11/" title="Minecraft 1.11">Minecraft 1.11</a></li>
+					<li><a href="/1.12/" title="Minecraft 1.12">Minecraft 1.12</a></li>
+				</ul>
+
+			</div>
+			
+			<div class="col-xs-1"></div>
+
+			<div class="col-xs-5">
+				<div id='cdm-zone-03'></div>
+			</div>
+
+		</div>
+
+
+		<div class="row">
+
+			<div class="col-xs-3">
+
+				<h5>MINECRAFT MULTIPLAYER</h5>
+				<ul class="bottom-links">
+					<li><a href="/about/">About</a></li>
+					<li><a href="/stats/">Statistics</a></li>
+					<li><a href="/blog/">Blog</a></li>
+					<li><a href="/partners/">Partners</a></li>
+					<li><a href="/achievements/">Achievements</a></li>					<li><a href="/terms/">Terms Of Service</a></li>
+					<li><a href="/privacy/">Privacy Policy</a></li>
+					<li><a href="/help/">Help/FAQ</a></li>
+				</ul>
+
+			</div>
+
+			<div class="col-xs-3">
+
+				<h5>LATEST SERVERS</h5>
+				<ul class="bottom-links">
+										<li><a href="/server-s149909">LuckyEckiGeile.de</a></li>
+										<li><a href="/server-s149908">Amnesia Factions</a></li>
+										<li><a href="/server-s149907">McVarnaCraftBg</a></li>
+										<li><a href="/server-s149906">SkyblockTeraa</a></li>
+										<li><a href="/server-s149905">[Sison Craft] JOIN NOW!</a></li>
+									</ul>
+
+			</div>
+
+			<div class="col-xs-3">
+
+				<h5>LATEST ARTICLES</h5>
+				<ul class="bottom-links">
+										<li><a href="/blog/187/minecraft-snapshot-17w06a/">Minecraft Snapshot 17w06a</a></li>
+										<li><a href="/blog/186/minecraft-1112-released/">Minecraft 1.11.2 Released</a></li>
+										<li><a href="/blog/185/minecraft-1111/">Minecraft 1.11.1</a></li>
+										<li><a href="/blog/184/minecraft-snapshot-16w50a/">Minecraft Snapshot 16w50a</a></li>
+										<li><a href="/blog/183/minecraft-111-the-exploration-update-released/">Minecraft 1.11 &quot;The Exploration Update&quot; Released</a></li>
+									</ul>
+
+			</div>
+
+			<div class="col-xs-3">
+
+				<h5>PARTNERS / AFFILIATES</h5>
+				<ul class="bottom-links">
+					<li><a href="https://www.gameservers.com/game_servers/minecraft.php?ref=1659925" target="_blank">GameServers.com</a></li>
+					<li><a href="http://www.enjin.com/minecraft-websites?ref=1612001&tag=minecraft-footer" target="_blank">Enjin</a></li>
+					<li><a href="http://www.minecraft-schematics.com/" target="_blank">Minecraft Schematics</a></li>
+					<li><a href="http://www.sandbox-games.net/" target="_blank">Sandbox-Games.net</a></li>
+					<li><a href="http://minecraft-skin-viewer.com/" target="_blank">Minecraft Skin Viewer</a></li>
+				</ul>
+
+			</div>
+
+
+		</div>
+
+		<div style="height: 30px;"></div>
+
+		<div class="row">
+			<div class="col-xs-12">
+				<center><div style="background: #333333; height: 1px; width: 90%;"></div></center>
+			</div>
+		</div>
+
+		<div style="height: 30px;"></div>
+
+		<div class="row">
+			<div class="col-xs-8">
+
+				<span class="copyright_text">Minecraft and associated Minecraft images are copyright of Mojang AB.<br/>
+				<strong>Minecraft-mp.com</strong> is not affiliated with Minecraft and Mojang AB.<br/><br/>
+				Welcome on the top Minecraft server list. Find all the best Minecraft multiplayer servers on <strong>Minecraft-mp.com</strong>.</span>
+
+			</div>
+
+			<div class="col-xs-4">
+				<div class="pull-right">
+					<span class="copyright_header">&copy; <a href="http://listforge.net" target="_blank">Listforge</a> 2016</span><br/>
+
+					<table width="200" cellpadding="2" cellspacing="2" border="0">
+						<tr>
+							<td class="information_text">Tracking</td>
+							<td><span class="label label-warning">17,895 servers</span></td>
+						</tr>
+						<tr>
+							<td class="information_text">Version</td>
+							<td><span class="label label-warning">2.5.1</span></td>
+						</tr>
+						<tr>
+							<td class="information_text" colspan="2"><a href="/legal/">Mentions L&eacute;gales</a></td>
+						</tr>
+					</table>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+
+
+	</div>
+</div>
+
+
+<!-- Start Alexa Certify Javascript -->
+<script type="text/javascript">
+_atrk_opts = { atrk_acct:"Rcxlf1aMIw0000", domain:"minecraft-mp.com",dynamic: true};
+(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+</script>
+<noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=Rcxlf1aMIw0000" style="display:none" height="1" width="1" alt="" /></noscript>
+<!-- End Alexa Certify Javascript -->  
+
+
+<div id='cdm-zone-end'></div>
+
+
+<!-- Begin comScore -->
+<script>
+var _comscore = _comscore || [];
+_comscore.push({ c1: "2", c2: "6035118" });
+(function() {
+   var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+   s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+   el.parentNode.insertBefore(s, el);
+})();
+</script>
+<noscript>
+   <img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=6035118&amp;cv=2.0&amp;cj=1" />
+</noscript>
+<!-- End comScore -->
+
+<!-- Nielsen Online SiteCensus -->
+<script type="text/javascript">
+(function () {
+   var d = new Image(1, 1);
+   d.onerror = d.onload = function () {
+       d.onerror = d.onload = null;
+   };
+   d.src = ["//secure-us.imrworldwide.com/cgi-bin/m?ci=us-603339h&cg=0&cc=1&si=", escape(window.location.href), "&rp=", escape(document.referrer), "&ts=compact&rnd=", (new Date()).getTime()].join('');
+})();
+</script>
+<noscript>
+   &lt;div&gt;&lt;img src="//secure-us.imrworldwide.com/cgi-bin/m?ci=us-603339h&amp;amp;cg=0&amp;amp;cc=1&amp;amp;ts=noscript" width="1" height="1" alt="" /&gt;&lt;/div&gt;
+</noscript>
+<!-- End Nielsen Online SiteCensus -->
+
+</body>
+</html>

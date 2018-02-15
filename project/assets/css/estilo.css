@@ -1,0 +1,388 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#header{
+    /*background: #472C4B;*/
+    background: url(../img/listrado.jpg) repeat top left #333;
+    background-size: cover;
+    height: 170px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-top: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#header-inner{
+    margin: 5px;
+    margin-bottom: 0px;
+}
+
+#cad-link a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: #5A5A5A;
+}
+
+.carousel-caption{
+    float: left;
+    width: 160px;
+
+}
+
+.carousel-caption a{
+    width: 120px;
+
+
+}
+
+#menu{
+    /*background: #5A5A5A;*/
+    /*background: #C179CE;*/
+}
+
+#menu-nav{
+    margin-bottom: 0px;
+    background: #a38a4b;
+}
+
+#menu-nav a{
+    color: #fff;
+}
+
+.navbar-brand{
+
+    margin-right: 60px !important;
+    margin-left: 10px !important;
+
+}
+
+.navbar .active a{
+    background: #FFFACD !important;
+    color: #a38a4b !important;
+}
+
+#menu-nav a:hover{
+    background: #FFFACD;
+    color: #a38a4b;
+}
+
+
+
+#cad-link{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#carrinho{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+}
+
+#btn-carrinho{
+    background: #fff;
+    color: #5A5A5A;
+    margin-bottom: 0px;
+}
+
+#general-content{
+    background: #fff;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 0px;
+}
+
+#localizacao{
+    padding: 5px;
+    background: #FFFACD;
+    color: #a38a4b;
+    margin-top: 10px;
+}
+#localizacao a{
+    font-size: 10pt;
+    color: #a38a4b;
+}
+
+#content{   
+    background: #fff;
+    border-right: 1px solid #dddddd;
+    margin-top: 10px;
+
+
+
+}
+#sub-titulo{
+    padding-left: 30px;
+}
+
+.produtos{
+    padding-left: 20px;;
+
+}
+
+
+#item-produto{
+    background: #fff;
+    float: left;
+    padding: 4px;
+    width: 240px;
+    border: 1px #dddddd solid;
+    text-align: center;
+    margin: 5px;
+    display: block;
+}
+
+#item-produto a{
+    width: 130px !important;
+    margin-top: 10px;
+    margin: 15px;
+}
+.produto-img{
+    border: 1px transparent solid;
+    padding: 5px;
+    width:75%;
+    height: 18%
+}
+.produto-titulo{
+    font: 15px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    min-height: 40px;
+
+}
+
+.produto-preco{
+    font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif; 
+    color: #093;
+    font-weight: bold;
+
+}
+
+#sidebar{
+    /*background: #472C4B;*/
+    background: #fff;
+    margin-top: 10px;
+}
+
+.sociais #facebook{
+    border-radius: 12px;
+    text-align: center;
+    padding: 20px;
+    width: 250px;
+    height: 180px;
+    background: #286090;
+    color: #fff;
+    text-align: center;
+    margin: 10px;
+}
+
+.sociais #facebook:hover{
+    background: #ccc;
+}
+
+#facebook .texto{
+    font: 15px "Trebuchet MS", Arial, Helvetica, sans-serif; 
+}
+
+#facebook img{
+    height: 80px;
+}
+
+#facebook a{
+    margin-bottom: 10px;
+    margin: 30px 20px;
+}
+
+#twitter .texto{
+    font: 15px "Trebuchet MS", Arial, Helvetica, sans-serif; 
+}
+
+#twitter img{
+    height: 80px;
+    margin: 0px 20px;
+}
+
+#twitter a{
+    margin-bottom: 10px;
+    margin: 30px 20px;
+}
+
+
+
+.sociais #twitter{
+    border-radius: 12px;
+    padding: 5px;
+    width: 250px;
+    height: 180px;
+    background: #c7449c;
+    color: #fff;
+    text-align: center;
+    margin: 10px;
+}
+
+.sociais #twitter:hover{
+    background: #ccc;
+}
+
+#feet{
+    margin-top: 20px;
+    background: #252424;
+    bottom: 0;
+    padding-top: 20px;
+}
+
+#cont-top{
+    background: #252424;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+#footer{
+    background: #5A5A5A;
+    height: 60px;
+    bottom: 0;
+    color: #fff;
+    padding: 20px;
+}
+
+
+#footer-menu{
+    color: #fff;
+}
+
+#footer-menu ul{
+    color: #fff;
+    list-style-type: none;
+}
+
+#footer-menu a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+#general-content-single{
+    background: #ccc; 
+    height: 300px;
+}
+
+#produto-imagens{
+    background: #fff;
+    height: 400px;
+    padding: 20px;
+}
+#imagem-single{
+    height: 350px;
+    width: 100%;
+    background: #fff;
+    border: 1px #dddddd solid;
+}
+#produto-dados{
+    background: #fff; 
+    height: 400px;
+    padding: 20px;
+}
+
+
+#produto-titulo-single{
+    font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif; 
+    margin-bottom: 20px;
+    padding: 0px;
+}
+
+#dados h3{
+    margin-top: 20px;
+}
+
+#de{
+    color: red;
+    text-decoration: line-through;
+}
+
+#por{
+    color: #093;
+}
+
+#dados a{
+    margin-top: 20px;
+    font: 20px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#produto-caracteristicas{
+    background: #fff;
+    padding: 20px;
+    border-top: 1px #dddddd solid;
+    margin-bottom: 50px;
+}
+
+#caracteristicas-dados p{
+    text-indent: 1.5em;
+    text-align: justify;
+    font: 10pt "Trebuchet MS", Arial, Helvetica, sans-serif;
+
+}
+
+#caracteristicas-dados{
+    text-align: justify;
+}
+
+.formulario{
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.titulo-inner{
+    margin-left: 15%;  
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+.form{  
+    margin-left: 15%;  
+    width: 70%;
+}
+
+.btn-form{
+    margin-top: 20px;
+}
+
+.form-login{
+    margin-top: 50px;
+    margin-left: 30%;  
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+.conteudo-carrinho{   
+    padding-top: 70px; 
+    margin-bottom: 50px;
+}
+
+.tabela-carrinho{
+    margin-left: 10% !important;
+    width: 80% !important;   
+}
+
+.conteudo-quem-somos{
+    margin-top: 70px;
+    margin-bottom: 70px;   
+}
+
+.conteudo-interno-quem-somos{
+    margin-left: 10%;
+    width: 80%;
+}
+
+.conteudo-interno-quem-somos p{
+    text-align: justify;
+}
+
+.imagem-quem-somos{
+    margin-top: 20px;
+    margin-right: 20px;
+}
